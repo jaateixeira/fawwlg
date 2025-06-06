@@ -1,6 +1,6 @@
 # Frugal Academic Writing With LaTex and Git - Towards a more efficient use of compute resources in collaborative academic writing 
 
-Three bash scripts that help towards a more efficient use of compute resources in collaborative academic writing. 
+A set of bash scripts that help towards a more efficient use of compute resources in collaborative academic writing. 
 Convenient as the price of hosted and vendor managed Git repositories is going up. 
 
 
@@ -23,27 +23,28 @@ A collection of Bash scripts to optimize and manage Git repositories—**reduce 
 🔹 **Usage**:  
    ```bash
    ./assume-unchanged.sh file1.txt dir/file2.pdf
+   ```
 
 
 ### 2. **`mark_all_pdfs_in_rep_unchanged.sh`**
- : Recursively marks all PDFs in a repo as "assume unchanged". 
-
-🔹 **Purpose**: Marks files as "assume unchanged" in Git to ignore local changes (without removing from tracking).  
+🔹 **Purpose**: Recursively marks all PDFs in a repo as "assume unchanged". 
 🔹 **Use Case**:  
-   - Temporary ignore configuration/log files  
+   - Key sources in pdf format (e.g., set of articles) added to repository will not change, so let Git know about it. 
    - Improve performance in large repos  
 🔹 **Usage**:  
    ```bash
-   ./assume-unchanged.sh file1.txt dir/file2.pdf
+   ./mark_all_pdfs_in_rep_unchanged.sh
+   ```
  
-### 2. **`remove_pdfs_git_rep_history.sh`**  
-🔹 **Purpose**: Marks files as "assume unchanged" in Git to ignore local changes (without removing from tracking).  
+### 3. **`remove_pdfs_git_rep_history.sh`**  
+🔹 **Purpose**: permanently removes PDF files from your Git repository history using BFG Repo-Cleaner, significantly reducing repository size.
 🔹 **Use Case**:  
-   - Temporary ignore configuration/log files  
+   - You been adding articles to read and cite to your project. Then, problem, you run out of space. Solution, you remove all pdf files from the history using remove_pdfs_git_rep_history.sh
    - Improve performance in large repos  
 🔹 **Usage**:  
    ```bash
-   ./assume-unchanged.sh file1.txt dir/file2.pdf
+   ./remove_pdfs_git_rep_history.sh
+   ```
 
 
 ## Git PDF History Cleaner -> remove_pdfs_git_rep_history.sh
