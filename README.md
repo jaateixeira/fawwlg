@@ -4,12 +4,20 @@ A set of bash scripts that help towards a more efficient use of compute resource
 Convenient as the price of hosted and vendor managed Git repositories is going up. 
 
 
+
+
+
+
 # Git Repository Optimization Scripts 🛠️
 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 A collection of Bash scripts to optimize and manage Git repositories used for collaborative academic writing. A response to bit-bucket 1GB limit (that in my view is fair as they are storing stuff for free under that limit). 
+
+
+> **Warning**  
+> These are bash scripts. For computer security purposes, you should always read and understand the security risks of running shell scripts that others develop. 
 
 ---
 
