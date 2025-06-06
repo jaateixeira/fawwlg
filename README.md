@@ -1,3 +1,51 @@
+# Frugal Academic Writing With LaTex and Git - Towards a more efficient use of compute resources in collaborative academic writing 
+
+Three bash scripts that help towards a more efficient use of compute resources in collaborative academic writing. 
+Convenient as the price of hosted and vendor managed Git repositories is going up. 
+
+
+# Git Repository Optimization Scripts 🛠️
+
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+A collection of Bash scripts to optimize and manage Git repositories—**reduce bloat**, **improve performance**, and **clean history** with PDF files.
+
+---
+
+## 📜 Scripts Overview
+
+### 1. **`assume-unchanged.sh`**  
+🔹 **Purpose**: Marks files as "assume unchanged" in Git to ignore local changes (without removing from tracking).  
+🔹 **Use Case**:  
+   - Temporary ignore configuration/log files  
+   - Improve performance in large repos  
+🔹 **Usage**:  
+   ```bash
+   ./assume-unchanged.sh file1.txt dir/file2.pdf
+
+
+### 2. **`mark_all_pdfs_in_rep_unchanged.sh`**
+ : Recursively marks all PDFs in a repo as "assume unchanged". 
+
+🔹 **Purpose**: Marks files as "assume unchanged" in Git to ignore local changes (without removing from tracking).  
+🔹 **Use Case**:  
+   - Temporary ignore configuration/log files  
+   - Improve performance in large repos  
+🔹 **Usage**:  
+   ```bash
+   ./assume-unchanged.sh file1.txt dir/file2.pdf
+ 
+### 2. **`remove_pdfs_git_rep_history.sh`**  
+🔹 **Purpose**: Marks files as "assume unchanged" in Git to ignore local changes (without removing from tracking).  
+🔹 **Use Case**:  
+   - Temporary ignore configuration/log files  
+   - Improve performance in large repos  
+🔹 **Usage**:  
+   ```bash
+   ./assume-unchanged.sh file1.txt dir/file2.pdf
+
+
 ## Git PDF History Cleaner -> remove_pdfs_git_rep_history.sh
 
 ![Shell Script](https://img.shields.io/badge/Shell_Script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
