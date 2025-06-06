@@ -76,7 +76,7 @@ This script allows you to:
 ./assume-unchanged.sh <file1> [file2 ...]
 ```
 
-## Git PDF Assume-Unchanged Script -> mark_all_pdfs_in_rep_unchanged.sh
+## 2 Git PDF Assume-Unchanged Script -> mark_all_pdfs_in_rep_unchanged.sh
 
 ![Bash](https://img.shields.io/badge/Bash-Script-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Integration-F05032?style=flat&logo=git&logoColor=white)
@@ -113,6 +113,7 @@ This script automatically:
 
 ![Bash](https://img.shields.io/badge/Bash-Script-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-Integration-F05032?style=flat&logo=git&logoColor=white)
+![PDF](https://img.shields.io/badge/PDF-Handling-FF0000?style=flat&logo=adobe-acrobat-reader&logoColor=white)
 
 A powerful bash script that permanently removes PDF files from your Git repository history using BFG Repo-Cleaner, significantly reducing repository size.
 
