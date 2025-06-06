@@ -1,11 +1,11 @@
-# Git PDF History Cleaner
+## Git PDF History Cleaner -> remove_pdfs_git_rep_history.sh
 
 ![Shell Script](https://img.shields.io/badge/Shell_Script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 A powerful bash script that permanently removes PDF files from your Git repository history using BFG Repo-Cleaner, significantly reducing repository size.
 
-## Features
+### Features
 
 - 🔍 **Automatically detects PDFs** in repository history (case-insensitive)
 - ⚡ **Optimized cleaning** using the industry-standard BFG tool
@@ -16,21 +16,21 @@ A powerful bash script that permanently removes PDF files from your Git reposito
 - 🎨 **Color-coded output** for better readability
 - ✔️ **Verification step** to confirm PDF removal
 
-## Use Cases
+### Use Cases
 
 - Reduce repository bloat from committed PDF files
 - Remove sensitive PDF documents from history
 - Prepare repositories for open-source publication
 - Optimize CI/CD pipeline performance by reducing clone times
 
-## Requirements
+### Requirements
 
 - Git
 - Java Runtime Environment (JRE)
 - Bash shell
 - `wget` or `curl` (for automatic download)
 
-## How It Works
+### How It Works
 
 The script:
 1. Checks for and downloads BFG if needed
@@ -40,7 +40,7 @@ The script:
 5. Provides verification of removal
 6. Offers to clean up the BFG jar file
 
-## Safety Features
+### Safety Features
 
 ✅ Pre-operation repository size measurement  
 ✅ Mandatory user confirmation before proceeding  
