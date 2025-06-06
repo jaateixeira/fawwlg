@@ -76,6 +76,39 @@ This script allows you to:
 ./assume-unchanged.sh <file1> [file2 ...]
 ```
 
+## Git PDF Assume-Unchanged Script -> mark_all_pdfs_in_rep_unchanged.sh
+
+![Bash](https://img.shields.io/badge/Bash-Script-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Integration-F05032?style=flat&logo=git&logoColor=white)
+![PDF](https://img.shields.io/badge/PDF-Handling-FF0000?style=flat&logo=adobe-acrobat-reader&logoColor=white)
+
+A recursive Bash script to mark all PDF files in a Git repository as "assume unchanged" with verbose output and safety checks.
+
+### 📝 Description
+
+This script automatically:
+- Finds all PDF files in your repository (including subdirectories)
+- Displays a summary of files to be modified
+- Requires user confirmation before proceeding
+- Marks all found PDFs as `--assume-unchanged`
+- Provides detailed progress reporting
+- Shows final statistics and helpful undo instructions
+
+### ✨ Features
+
+- 🔍 **Recursive PDF detection** - Finds all `.pdf` files in repository
+- ✅ **Interactive confirmation** - Prevents accidental execution
+- 📊 **Progress tracking** - Shows count of processed files
+- 🎨 **Color-coded output** - Easy-to-read terminal feedback
+- 📝 **Post-execution notes** - Helpful Git commands for management
+- 🔒 **Safety checks** - Verifies Git repository first
+
+### 🚀 Usage
+
+```bash
+./mark_all_pdfs_in_rep_unchanged.sh
+```
+
 ## 3 Git PDF History Cleaner -> remove_pdfs_git_rep_history.sh
 
 ![Bash](https://img.shields.io/badge/Bash-Script-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
