@@ -47,7 +47,36 @@ A collection of Bash scripts to optimize and manage Git repositories—**reduce 
    ```
 
 
-## Git PDF History Cleaner -> remove_pdfs_git_rep_history.sh
+## 1 Git Assume-Unchanged Script  -> assume-unchanged.sh
+
+![Bash](https://img.shields.io/badge/Bash-Script-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-Integration-F05032?style=flat&logo=git&logoColor=white)
+
+A Bash script to mark files as "assume unchanged" in Git, preventing local changes from being tracked without removing files from version control.
+
+### 📝 Description
+
+This script allows you to:
+- Mark one or multiple files as `--assume-unchanged` in Git
+- Verify current Git status of files
+- Check which files are currently marked as assume-unchanged
+- Provides color-coded output for better visibility
+
+### 🛠️ Features
+
+- ✅ Color-coded terminal output (errors in red, success in green)
+- ✅ Checks if files exist and are tracked by Git
+- ✅ Shows current Git status before modification
+- ✅ Verification step after marking files
+- ✅ Handles multiple files at once
+
+### 🚀 Usage
+
+```bash
+./assume-unchanged.sh <file1> [file2 ...]
+```
+
+## 3 Git PDF History Cleaner -> remove_pdfs_git_rep_history.sh
 
 ![Shell Script](https://img.shields.io/badge/Shell_Script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
