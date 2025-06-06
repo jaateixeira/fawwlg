@@ -12,6 +12,7 @@ Convenient as the price of hosted and vendor managed Git repositories is going u
 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![PDF](https://img.shields.io/badge/PDF-Handling-FF0000?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)
 
 A collection of Bash scripts to optimize and manage Git repositories used for collaborative academic writing. A response to bit-bucket 1GB limit (that in my view is fair as they are storing stuff for free under that limit). 
 
