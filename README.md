@@ -18,6 +18,8 @@ A collection of Bash scripts to optimize and manage Git repositories—**reduce 
 ### 1. **`assume-unchanged.sh`**  
 🔹 **Purpose**: Marks files as "assume unchanged" in Git to ignore local changes (without removing from tracking).  
 🔹 **Use Case**:  
+   - Mark published pdf files as assume-unchanged. Git should know about it sit ut threats them differently 
+   - No need to remember the "git update-index --assume-unchanged <file>" command 
    - Temporary ignore configuration/log files  
    - Improve performance in large repos  
 🔹 **Usage**:  
@@ -61,6 +63,7 @@ This script allows you to:
 - Verify current Git status of files
 - Check which files are currently marked as assume-unchanged
 - Provides color-coded output for better visibility
+- The same as "git update-index --assume-unchanged <file>" command 
 
 ### 🛠️ Features
 
