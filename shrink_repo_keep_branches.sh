@@ -57,3 +57,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 else
     echo -e "\n\033[1;33mAborted. Remote unchanged.\033[0m"
 fi
+
+echo "This script rewrites Git history and force-pushes all branches."
+echo "Anyone with a local clone will lose sync with the remote."
+echo "All team members must reclone"
